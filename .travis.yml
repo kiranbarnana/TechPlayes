@@ -8,6 +8,6 @@ before_script:
   - ls
   - sh ./configure
   - make
-  - make install --prefix=lib
+  - make install DESTDIR=~/kiranbarnana/TechPlayers/TechPlayers-master/lib/
 
 script: . ./autogen.sh
