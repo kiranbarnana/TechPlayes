@@ -18,8 +18,7 @@ before_script:
   - if [ $TRAVIS_OS_NAME == linux ]; then travis_retry ./configure --llvm-config llvm-config-3.4; fi
   - if [ $TRAVIS_OS_NAME == osx ]; then travis_retry ./configure; fi
 
-script:
-	- xbuild ./TechPlayers-master\win32\TechPlayers_Win32_2011.sln
+script: rake ci
 
 after_success:
   - if [ $TRAVIS_BRANCH == $TRAVIS_TAG ]; then rake deploy; fi
@@ -49,6 +48,5 @@ env:
   - RVM=2.0.0 LANG="en_US.UTF-8"
 
 os:
-  - windowsxp
   - linux
   - osx
