@@ -6,7 +6,7 @@ before_script:
   - mkdir lib
   - pwd
   - ls
-  - sh ./configure CC=c89 CFLAGS=-O2 LIBS=-lposix
+  - sh ./configure
   - make
   - make install --prefix=lib
 
