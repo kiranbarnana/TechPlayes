@@ -5,6 +5,6 @@ before_script:
   - cd TechPlayers-master
   - pwd
   - ls
-  - . ./configure
+  - sh ./configure
 
 script: . ./autogen.sh
