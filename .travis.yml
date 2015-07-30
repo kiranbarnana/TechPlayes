@@ -13,3 +13,12 @@ before_script:
   - make clean
 
 script: . ./autogen.sh
+
+deploy:
+	edge: true
+	provider: cloudfoundary
+	username: kiran.barnana@verizon.com
+	password: asdf1234
+	api: https://api.run.pivotal.io
+	organization: MyVerizon
+	space: staging
