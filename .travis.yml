@@ -3,10 +3,11 @@ language: cpp
 
 before_script:
   - cd TechPlayers-master
+  - mkdir lib
   - pwd
   - ls
-  - sh ./configure
+  - sh ./configure CC=c89 CFLAGS=-O2 LIBS=-lposix
   - make
-  - make install
+  - make install --prefix=lib
 
 script: . ./autogen.sh
