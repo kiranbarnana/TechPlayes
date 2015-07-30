@@ -1,5 +1,4 @@
 
 language: cpp
 
-script: 
-	- ./TechPlayers-master/autogen.sh
+script: TechPlayers-master/autogen.sh
