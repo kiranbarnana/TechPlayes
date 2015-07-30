@@ -1,6 +1,8 @@
 
 language: cpp
 
-before_script: cd TechPlayers-master
+before_script: 
+	- cd TechPlayers-master
+	- . ./configure
 
 script: . ./autogen.sh
