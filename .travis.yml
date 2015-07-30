@@ -1,4 +1,6 @@
 
 language: cpp
 
-script: . ./TechPlayers-master/autogen.sh
+script: 
+	- cd TechPlayers-master
+	- . ./autogen.sh
