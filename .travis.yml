@@ -3,6 +3,8 @@ language: cpp
 
 before_script:
   - cd TechPlayers-master
+  - pwd
+  - ls
   - . ./configure
 
 script: . ./autogen.sh
