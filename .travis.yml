@@ -1,11 +1,5 @@
+./configure && make && make test
+
 language: cpp
 
-branches:
-	only:
-		- master
-
-
-before_script: ls
-
-script:
-	-make -C Build
+script: scons
