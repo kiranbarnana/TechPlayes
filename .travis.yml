@@ -2,4 +2,4 @@ language: cpp
 
 solution: ./TechPlayers-master/win32/TechPlayers_Win32_2011.sln
 
-script: msbuild ./TechPlayers-master/win32/TechPlayers_Win32_2011.vcxproj /t:Build
+script: xbuild ./TechPlayers-master/win32/TechPlayers_Win32_2011.vcxproj /t:Build
