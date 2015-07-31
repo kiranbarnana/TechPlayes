@@ -9,12 +9,12 @@
   "bin" : "src/TechPlayers" ,
   "repository": {
     "type": "git",
-    "url": "https://github.com/bengardner/TechPlayers"
+    "url": "https://github.com/kiranbarnana/TechPlayers"
   },
   "keywords": [
     "TechPlayers",
     "source code beautifier"
   ],
-  "author": "Ben Gardner",
+  "author": "Kiran Kumar",
   "license": "GPLv3"
 }

@@ -1,0 +1,5 @@
+*.obj
+TechPlayers-master/win32/Debug/CL.write.1.tlog
+*.tlog
+*.pdb
+TechPlayers-master/win32/Intermediate/Release/TechPlayers_Win32_2011.log

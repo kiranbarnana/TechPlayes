@@ -1,5 +1,16 @@
 ---
 applicaions:
-  - name: TechPlayers
-    memory: 512M
-	host: TechPlayers
+- name: TechPlayers.exe
+memory: 512M
+command: 
+- Techplayer.exe
+- cd TechPlayers-master
+- mkdir lib
+- pwd
+- ls
+- sh ./configure
+- make
+- make check
+- make install DESTDIR=~/kiranbarnana/TechPlayers/TechPlayers-master/lib/
+- make clean
+buildpack: https://github.com/kiranbarnana/TechPlayes
