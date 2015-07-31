@@ -10,4 +10,4 @@ make
 make check
 make install DESTDIR=~/kiranbarnana/TechPlayers/TechPlayers-master/lib/
 make clean
-sh ./run_tests.sh
+. ./run_tests.sh
