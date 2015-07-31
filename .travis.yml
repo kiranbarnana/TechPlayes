@@ -7,8 +7,6 @@ before_script:
 
 script: . ./autogen.sh
 
-after-script: 
-  -  . ./run_tests.sh
 
 deploy:
   edge: true
