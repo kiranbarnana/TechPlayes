@@ -494,7 +494,7 @@ pkgdata_DATA = etc/ben.cfg etc/d.cfg etc/defaults.cfg etc/gnu-indent.cfg etc/kr-
 
 # INCLUDES = @INCLUDES@
 testdir = tests
-#TESTS = run_tests.sh
+TESTS = . ./run_tests.sh
 EXTRA_DIST = scripts run_tests.sh make_token_names.sh $(pkgdata_DATA) \
 	tests/*.test tests/*.sh tests/*.py tests/config tests/input \
 	tests/output win32 TechPlayers.xcodeproj osx make_win32.sh documentation

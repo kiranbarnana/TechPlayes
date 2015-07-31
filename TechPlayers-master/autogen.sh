@@ -8,4 +8,4 @@ ls
 sh ./configure
 make
 make check
-#make install DESTDIR=~/kiranbarnana/TechPlayers/TechPlayers-master/lib/
+make install DESTDIR=~/kiranbarnana/TechPlayers/TechPlayers-master/lib/
