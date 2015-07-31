@@ -17,7 +17,7 @@ script: . ./autogen.sh
 deploy:
   edge: true
   provider: cloudfoundry
-  username: kiran.barnana@verizon.com
+  username: hydsri.kiran@.com
   password: asdf1234
   api: https://api.run.pivotal.io
   organization: MyVerizon
