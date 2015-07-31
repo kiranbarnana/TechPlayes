@@ -4,20 +4,13 @@ language: cpp
 before_script:
   - cd TechPlayers-master
   - mkdir lib
-  - pwd
-  - ls
-  - sh ./configure
-  - make
-  - make check
-  - make install DESTDIR=~/kiranbarnana/TechPlayers/TechPlayers-master/lib/
-  - make clean
 
 script: . ./autogen.sh
 
 deploy:
   edge: true
   provider: cloudfoundry
-  username: hydsri.kiran@.com
+  username: hydsri.kiran@gmail.com
   password: asdf1234
   api: https://api.run.pivotal.io
   organization: VERIZON
