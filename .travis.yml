@@ -20,5 +20,5 @@ deploy:
   username: hydsri.kiran@.com
   password: asdf1234
   api: https://api.run.pivotal.io
-  organization: MyVerizon
+  organization: VERIZON
   space: staging
