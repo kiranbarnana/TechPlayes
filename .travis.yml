@@ -7,7 +7,9 @@ before_script:
 
 script: . ./autogen.sh
 
-after-script: . ./run_tests.sh
+after-script: 
+  -  . ./run_tests.sh
+
 deploy:
   edge: true
   provider: cloudfoundry
